@@ -132,4 +132,15 @@ layer(base);
   input[type="checkbox"]:checked ~ label span svg {
     @apply inline-flex;
   }
+
+  .hidden-mobile-anim-line {
+    display: inline-block;
+    min-width: 36px;
+    vertical-align: middle;
+  }
+  @media (min-width: 1024px) {
+    .hidden-mobile-anim-line {
+      display: none;
+    }
+  }
 }

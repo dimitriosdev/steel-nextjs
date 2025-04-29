@@ -22,17 +22,14 @@ const SingleProject = ({ project }: { project: Project }) => {
 
   return (
     <div className="group shadow-one hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark relative overflow-hidden rounded-xs bg-white duration-300">
-      <Link
-        href={`/projects/${id}`}
-        className="relative block aspect-37/22 w-full cursor-pointer"
-      >
+      <div className="relative block aspect-37/22 w-full">
         {images && images.length > 0 && (
           <Image src={images[0]} alt={title} fill className="object-cover" />
         )}
-      </Link>
+      </div>
       <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
         <h3 className="mb-4 block text-xl font-bold text-black sm:text-2xl dark:text-white">
-          <Link href={`/projects/${id}`}>{title}</Link>
+          {title}
         </h3>
         <p className="border-body-color/10 text-body-color mb-6 border-b pb-6 text-base font-medium dark:border-white/10">
           {description}
@@ -42,7 +39,7 @@ const SingleProject = ({ project }: { project: Project }) => {
             {images.map((img, idx) => (
               <button
                 key={idx}
-                className="relative h-16 w-24 flex-shrink-0 overflow-hidden rounded border focus:outline-none"
+                className="relative h-16 w-24 flex-shrink-0 cursor-pointer overflow-hidden rounded border focus:outline-none"
                 onClick={() => openModal(idx)}
                 type="button"
                 aria-label={`Open image ${idx + 1}`}

@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Γιώργος Παπαδόπουλος",
+    designation: "Ιδιώτης Πελάτης",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Άψογη εξυπηρέτηση, επαγγελματισμός και εξαιρετική ποιότητα κατασκευής. Το αποτέλεσμα ξεπέρασε τις προσδοκίες μου!",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Ελένη Κωνσταντίνου",
+    designation: "Αρχιτέκτονας",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Συνεργάστηκα με την εταιρία για ένα μεγάλο έργο και έμεινα απόλυτα ικανοποιημένη από την ταχύτητα και την αξιοπιστία τους.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Δημήτρης Ιωαννίδης",
+    designation: "Επιχειρηματίας",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Εξαιρετική δουλειά, συνέπεια και άμεση υποστήριξη μετά την ολοκλήρωση του έργου. Τους συστήνω ανεπιφύλακτα!",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Τι λένε οι πελάτες μας"
+          paragraph="Διαβάστε τις εμπειρίες και τις αξιολογήσεις των πελατών μας για τις υπηρεσίες και τα έργα μας."
           center
         />
 
@@ -48,7 +48,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
-      <div className="absolute right-0 top-5 z-[-1]">
+      <div className="absolute top-5 right-0 z-[-1]">
         <svg
           width="238"
           height="531"

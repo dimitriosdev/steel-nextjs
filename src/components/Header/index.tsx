@@ -49,7 +49,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="w-[90vw] max-w-full px-4 lg:w-80 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -57,18 +57,18 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/logo-icon-text-1100x256.webp"
                   alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
+                  width={500}
+                  height={120}
+                  className="w-[90vw] max-w-full lg:w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/logo-icon-text-1100x256.webp"
                   alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
+                  width={500}
+                  height={120}
+                  className="hidden w-[90vw] max-w-full lg:w-full dark:block"
                 />
               </Link>
             </div>

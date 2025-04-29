@@ -3,44 +3,44 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Πλεονεκτήματα Συστημάτων Αλουμινίου στα Κτίρια",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Ανακαλύψτε γιατί τα συστήματα αλουμινίου αποτελούν την ιδανική επιλογή για σύγχρονες κατασκευές: αντοχή, αισθητική και ενεργειακή απόδοση.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Ευθύμης Γιαπουτζής",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Ιδιοκτήτης",
     },
-    tags: ["creative"],
+    tags: ["αλουμίνιο"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Συμβουλές για Συντήρηση Μεταλλικών Κατασκευών",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Μάθετε πώς να διατηρείτε τις μεταλλικές κατασκευές σας σε άριστη κατάσταση με απλές και πρακτικές συμβουλές.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Ευθύμης Γιαπουτζής",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Ιδιοκτήτης",
     },
-    tags: ["computer"],
+    tags: ["συντήρηση"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Επιλογή Θωρακισμένης Πόρτας: Τι να Προσέξετε",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Οδηγός για την επιλογή της κατάλληλης θωρακισμένης πόρτας για το σπίτι ή την επιχείρησή σας, με έμφαση στην ασφάλεια και την ποιότητα.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Ευθύμης Γιαπουτζής",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Ιδιοκτήτης",
     },
-    tags: ["design"],
+    tags: ["πόρτες"],
     publishDate: "2025",
   },
 ];

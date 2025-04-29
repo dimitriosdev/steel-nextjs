@@ -12,8 +12,10 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title:
+    "Συστήματα Αλουμινίου - Σιδήρου | Γιαπουτζής Ευθύμης Steel Made Constructions",
+  description:
+    "Εγκαταστάσεις αλουμινίου υψηλής ποιότητας. Μεταλλικές Κατασκευές, Συστήματα Κουφωμάτων Αλουμινίου, θωρακισμένες πόρτες, αίθρια. Σχεδόν δύο δεκαετίες εμπειρίας και αφοσίωσης στους πελάτες μας.",
   // other metadata
 };
 
@@ -23,12 +25,12 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
+
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
+
       <Blog />
       <Contact />
     </>

@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Οι τιμές μας είναι διαφανείς και προσαρμοσμένες στις ανάγκες σας, με στόχο την καλύτερη σχέση ποιότητας-τιμής στην αγορά. Επικοινωνήστε μαζί μας για προσφορά!"
           center
           width="665px"
         />
@@ -23,7 +23,7 @@ const Pricing = () => {
               onClick={() => setIsMonthly(true)}
               className={`${
                 isMonthly
-                  ? "pointer-events-none text-primary"
+                  ? "text-primary pointer-events-none"
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
@@ -38,7 +38,7 @@ const Pricing = () => {
                 <div
                   className={`${
                     isMonthly ? "" : "translate-x-full"
-                  } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
+                  } shadow-switch-1 bg-primary absolute top-[-4px] left-0 flex h-7 w-7 items-center justify-center rounded-full transition`}
                 >
                   <span className="active h-4 w-4 rounded-full bg-white"></span>
                 </div>
@@ -49,7 +49,7 @@ const Pricing = () => {
               className={`${
                 isMonthly
                   ? "text-dark dark:text-white"
-                  : "pointer-events-none text-primary"
+                  : "text-primary pointer-events-none"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
               Yearly

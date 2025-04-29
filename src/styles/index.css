@@ -144,3 +144,40 @@ layer(base);
     }
   }
 }
+
+@keyframes heroPulse {
+  0% { filter: brightness(1) drop-shadow(0 0 0 #4A6CF7); }
+  50% { filter: brightness(1.15) drop-shadow(0 0 32px #4A6CF7); }
+  100% { filter: brightness(1) drop-shadow(0 0 0 #4A6CF7); }
+}
+.hero-float {
+  animation: heroPulse 2.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes heroBarShimmer {
+  0% { opacity: 0.5; filter: blur(0px); transform: translateX(0) scaleX(1); }
+  30% { opacity: 1; filter: blur(2px); transform: translateX(60px) scaleX(1.15); }
+  50% { opacity: 0.7; filter: blur(0px); transform: translateX(130px) scaleX(1); }
+  80% { opacity: 1; filter: blur(2px); transform: translateX(60px) scaleX(1.15); }
+  100% { opacity: 0.5; filter: blur(0px); transform: translateX(0) scaleX(1); }
+}
+.hero-animated-bar {
+  animation: heroBarShimmer 2.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes heroWindowPulse {
+  0% { opacity: 0.7; filter: brightness(1); }
+  50% { opacity: 1; filter: brightness(1.25); }
+  100% { opacity: 0.7; filter: brightness(1); }
+}
+.hero-window-anim {
+  animation: heroWindowPulse 2.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes heroDoorSlide {
+  0% { transform: translateY(0); }
+  10% { transform: translateY(-4px); }
+  20% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+.hero-door-anim {
+  animation: heroDoorSlide 2.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}

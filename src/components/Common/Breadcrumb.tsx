@@ -2,11 +2,9 @@ import Link from "next/link";
 
 const Breadcrumb = ({
   pageName,
-  description,
   levelUpPageName = "",
 }: {
   pageName: string;
-  description: string;
   levelUpPageName?: string;
 }) => {
   return (
@@ -19,20 +17,15 @@ const Breadcrumb = ({
                 <h1 className="mb-5 text-2xl font-bold text-black sm:text-3xl dark:text-white">
                   {pageName}
                 </h1>
-                <p className="text-body-color text-base leading-relaxed font-medium">
-                  {description}
-                </p>
               </div>
-            </div>
-            <div className="w-full px-4 md:w-4/12 lg:w-5/12">
-              <div className="text-end">
-                <ul className="flex items-center md:justify-end">
+              <div className="text-left">
+                <ul className="flex items-center md:justify-start">
                   <li className="flex items-center">
                     <Link
                       href="/"
                       className="text-body-color hover:text-primary pr-1 text-base font-medium"
                     >
-                      Home
+                      Αρχική
                     </Link>
                     <span className="border-body-color mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2"></span>
                   </li>

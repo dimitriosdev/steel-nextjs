@@ -62,7 +62,6 @@ const AboutSectionOne = () => {
                   <span className="text-primary font-semibold">
                     Ζητήστε μας προσφορά.
                   </span>
-                  <span>ή επικοινωνήστε μαζί μας</span>
                 </div>
               </div>
             </div>

@@ -9,7 +9,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-01.jpg",
     author: {
       name: "Ευθύμης Γιαπουτζής",
-      image: "/images/blog/author-01.png",
+      image: "/images/blog/author-02.png",
       designation: "Ιδιοκτήτης",
     },
     tags: ["αλουμίνιο"],
@@ -37,7 +37,7 @@ const blogData: Blog[] = [
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Ευθύμης Γιαπουτζής",
-      image: "/images/blog/author-03.png",
+      image: "/images/blog/author-02.png",
       designation: "Ιδιοκτήτης",
     },
     tags: ["πόρτες"],

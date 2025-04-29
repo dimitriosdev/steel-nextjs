@@ -25,22 +25,39 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Brands />
+
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
       {/* Highlight case studies or client stories here for trust */}
       <section className="bg-primary/5 py-12 text-center">
-        <h2 className="text-2xl font-bold mb-4 text-primary">Εμπιστεύτηκαν τη δουλειά μας</h2>
-        <p className="mb-6 text-lg">Δείτε μερικά από τα έργα και τους πελάτες που μας εμπιστεύτηκαν για τις μεταλλικές και αλουμινένιες κατασκευές τους.</p>
-        <a href="/projects" className="inline-block bg-primary text-white px-6 py-3 rounded-md font-semibold hover:bg-primary/90 transition">Δείτε τα έργα μας</a>
+        <h2 className="text-primary mb-4 text-2xl font-bold">
+          Εμπιστεύτηκαν τη δουλειά μας
+        </h2>
+        <p className="mb-6 text-lg">
+          Δείτε μερικά από τα έργα και τους πελάτες που μας εμπιστεύτηκαν για
+          τις μεταλλικές και αλουμινένιες κατασκευές τους.
+        </p>
+        <a
+          href="/projects"
+          className="bg-primary hover:bg-primary/90 inline-block rounded-md px-6 py-3 font-semibold text-white transition"
+        >
+          Δείτε τα έργα μας
+        </a>
       </section>
       <Blog />
       <Contact />
       {/* Add a clear call-to-action at the bottom */}
-      <section className="bg-primary py-10 text-center mt-10">
-        <h2 className="text-2xl font-bold text-white mb-2">Επικοινωνήστε μαζί μας για προσφορά</h2>
-        <a href="/contact" className="inline-block bg-white text-primary px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">Ζητήστε Προσφορά</a>
+      <section className="bg-primary mt-10 py-10 text-center">
+        <h2 className="mb-2 text-2xl font-bold text-white">
+          Επικοινωνήστε μαζί μας για προσφορά
+        </h2>
+        <a
+          href="/contact"
+          className="text-primary inline-block rounded-md bg-white px-8 py-3 font-semibold transition hover:bg-gray-100"
+        >
+          Ζητήστε Προσφορά
+        </a>
       </section>
     </>
   );

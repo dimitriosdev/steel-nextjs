@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Steel Made Κατασκευές"
+                title="Steel Made Constructions"
                 paragraph="Μεταλλικές Κατασκευές / Συστήματα Κουφωμάτων Αλουμινίου"
                 mb="44px"
               />
@@ -59,28 +59,16 @@ const AboutSectionOne = () => {
                   </li>
                 </ul>
                 <div className="mt-8 flex flex-col gap-2">
-                  <span className="text-primary font-semibold">
-                    Ζητήστε μας προσφορά.
-                  </span>
+                  <a
+                    href="/contact"
+                    className="bg-primary hover:bg-primary-dark inline-block rounded px-6 py-3 text-center font-semibold text-white shadow transition-colors duration-200"
+                  >
+                    Ζητήστε μας προσφορά
+                  </a>
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="drop-shadow-three mx-auto max-w-full lg:mr-0 dark:hidden dark:drop-shadow-none"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="drop-shadow-three mx-auto hidden max-w-full lg:mr-0 dark:block dark:drop-shadow-none"
-                />
-              </div>
-            </div>
+            <div className="w-full px-4 lg:w-1/2"></div>
           </div>
         </div>
       </div>
